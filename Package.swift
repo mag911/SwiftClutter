@@ -8,9 +8,9 @@ let package = Package(
         .library(name: "Clutter", targets: ["Clutter"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/rhx/SwiftCairo.git", .branch("master")),
-        .package(url: "https://github.com/rhx/SwiftCoglPango.git", .branch("master")),
-        .package(url: "https://github.com/rhx/SwiftAtk.git", .branch("master")),
+        .package(url: "https://github.com/mag911/SwiftCairo.git", .branch("master")),
+        .package(url: "https://github.com/mag911/SwiftCoglPango.git", .branch("master")),
+        .package(url: "https://github.com/mag911/SwiftAtk.git", .branch("master")),
     ],
     targets: [
 	.systemLibrary(name: "CClutter", pkgConfig: "clutter-1.0 cogl-gl-1.0 cogl-path-1.0 glib-2.0 gio-unix-2.0",
